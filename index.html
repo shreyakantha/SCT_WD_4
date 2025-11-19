@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Styled To-Do App</title>
+</head>
+<body>
+<div class="container">
+
+    <div class="header">
+    <div class="date-row">
+        <span id="today"></span>
+        <span id="currentTime"></span>
+    </div>
+
+    <h2>To-do List</h2>
+
+    <div class="week" id="weekDates"></div>
+    </div>
+
+    <input type="text" id="newListName" placeholder="New list name" />
+    <button id="addListBtn">Add List</button>
+
+    <select id="listSelect" aria-label="Choose list"></select>
+    <input type="text" id="taskName" placeholder="Task name" />
+    <input type="datetime-local" id="taskDue" />
+    <button id="addTaskBtn">Add Task</button>
+
+    <div id="lists"></div>
+</div>
+</body>
+</html>
