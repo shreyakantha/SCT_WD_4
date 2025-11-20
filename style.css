@@ -43,13 +43,13 @@ h2 {
     text-transform: lowercase;
 }
 
- .day-block {
+.day-block {
     text-align: center;
     width: calc(100% / 7);
     padding: 4px 2px;
-    }
+}
 
-    .day-number {
+.day-number {
     width: 34px;
     height: 34px;
     border-radius: 50%;
@@ -59,21 +59,20 @@ h2 {
     align-items: center;
     font-size: 14px;
     border: 2px solid transparent;
-    }
+}
 
-    .day-active {
+.day-active {
     background: #1c4b8c;
     color: #fff;
     box-shadow: 0 2px 6px rgba(28,75,140,0.12);
-    }
+}
 
-    .day-inactive {
+.day-inactive {
     background: transparent;
     color: #37567a;
-    }
+}
 
-    /* tasks */
-    .task {
+.task {
     background: #e6f0ff;
     padding: 12px;
     border-radius: 10px;
@@ -83,19 +82,26 @@ h2 {
     gap: 12px;
     margin: 10px 0;
     font-size: 15px;
-    }
+}
 
-    .left-section { display: flex; align-items: center; gap: 12px; }
+.left-section { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+}
 
-    .checkbox {
+.checkbox {
     width: 22px;
     height: 22px;
     cursor: pointer;
-    }
+}
 
-    .completed-text { text-decoration: line-through; color: #757575; }
+.completed-text { 
+    text-decoration: line-through; 
+    color: #757575; 
+}
 
-    .time-box {
+.time-box {
     background: white;
     padding: 6px 12px;
     border-radius: 8px;
@@ -103,10 +109,9 @@ h2 {
     font-size: 14px;
     min-width: 68px;
     text-align: center;
-    }
+}
 
-    /* inputs */
-    input, select, button {
+input, select, button {
     padding: 10px;
     margin: 6px 0;
     width: 100%;
@@ -114,20 +119,28 @@ h2 {
     border: 1px solid #d1d7dd;
     box-sizing: border-box;
     font-size: 15px;
-    }
+}
 
-    select { appearance: none; background-image:none; }
+select { 
+    appearance: none; 
+    background-image:none; 
+}
 
-    button {
+button {
     background: #14437f;
     color: #fff;
     cursor: pointer;
     border: none;
     font-weight: 600;
-    }
+}
 
-    button:hover { opacity: 0.94; }
+button:hover { 
+    opacity: 0.94; 
+}
 
-    @media (max-width: 470px) {
-    .container { width: 94%; padding: 18px; }
+@media (max-width: 470px) {
+    .container { 
+        width: 94%; 
+        padding: 18px; 
     }
+}
